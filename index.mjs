@@ -149,7 +149,7 @@ class Authorize {
             if (!payload.token) {
                 return console.error("auth socialLoginOauthAnswer: no token");
             }
-            await Authorize.authorizeSocialLogin(payload, options);
+            return await Authorize.authorizeSocialLogin(payload, options);
         }
         catch (err) {
             console.error("auth socialLoginOauthAnswer:", err);
