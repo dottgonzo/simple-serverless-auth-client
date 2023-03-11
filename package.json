@@ -2,7 +2,7 @@
   "name": "simple-serverless-auth-client",
   "version": "0.0.1",
   "description": "serverless auth client module",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "watch-ts": "tsc -w",
     "build": "tsc",
