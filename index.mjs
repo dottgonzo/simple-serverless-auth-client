@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class Authorize {
+export default class Authorize {
     constructor(options) {
         this.authUrl = options.authUrl;
         this.authCookieName = options.authCookieName || "authToken";
@@ -156,5 +154,4 @@ class Authorize {
         }
     }
 }
-exports.default = Authorize;
 //# sourceMappingURL=index.mjs.map
