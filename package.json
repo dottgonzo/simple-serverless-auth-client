@@ -1,0 +1,31 @@
+{
+  "name": "simple-serverless-auth-client",
+  "version": "0.0.0",
+  "description": "serverless auth client module",
+  "main": "index.js",
+  "scripts": {
+		"watch-ts": "tsc -w",
+		"build": "tsc",
+		"release:patch": "npm version patch && git push && git push --tags",
+		"release:minor": "npm version minor && git push && git push --tags",
+		"release:major": "npm version major && git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dottgonzo/simple-serverless-auth-client.git"
+  },
+  "keywords": [
+    "serverless",
+    "auth"
+  ],
+  "author": "Dario Caruso",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dottgonzo/simple-serverless-auth-client/issues"
+  },
+  "homepage": "https://github.com/dottgonzo/simple-serverless-auth-client#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "type": "module"
+}
