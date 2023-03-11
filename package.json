@@ -1,6 +1,6 @@
 {
   "name": "simple-serverless-auth-client",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "serverless auth client module",
   "main": "index.js",
   "scripts": {
